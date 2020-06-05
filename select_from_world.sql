@@ -46,7 +46,7 @@ SELECT name, ROUND(gdp/population, -3)
 FROM world
 WHERE gdp > 1000000000000;
 
-/* Show the name and capital where the name and the capital have the same number of characters. */
+/* Show the name and capital where the name and the capital have the same number of characters. the function LENGTH didnt work*/
 SELECT name, LEN(name), capital, LEN(capital)
 FROM world
 WHERE LEN(name) = LEN(capital)
