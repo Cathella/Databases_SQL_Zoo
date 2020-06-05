@@ -1,3 +1,4 @@
+/* USED THE BLOCK METHOD -- MORE READABLE */
 /* Modify it to show the population of Germany */
 SELECT population
 FROM world
